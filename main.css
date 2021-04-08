@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 400px;
+    border: 2px solid #009eff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid darkgray;
+    outline: none;
+    border-radius: 2px;
+}
+
+#sign-in-button {
+    padding: 6px;
+    padding-right: 9px;
+    padding-left: 9px;
+    margin: 15px;
+    /*background: darkgray;*/
+    /*width: 120px;*/
+    border: unset;
+    cursor: pointer;
+    border-radius: 6px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font-family: 'Jost', sans-serif;
+    font-size: medium;
+
+}
+
+#sign-up-button {
+    padding: 6px;
+    padding-right: 9px;
+    padding-left: 9px;
+    margin: 15px;
+    /*background: darkgray;*/
+    /*width: 120px;*/
+    border: unset;
+    cursor: pointer;
+    border-radius: 6px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font-family: 'Jost', sans-serif;
+    font-size: medium;
+
+}
+
+button:hover {
+    background-color: #009dff;
+    color: white;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    margin: 15px;
+}
+
+#registration-suggestion {
+    font-size: small;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+a {
+    margin: 8px;
+    color: #116bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.title {
+    font-weight: bold;
+}
+
+#message-from-server {
+    /*color: #ff4f52;*/
+    /*font-weight: bold;*/
+    border: 2px solid #ff6f70;
+    display: flex;
+    font-size: small;
+    justify-content: center;
+    padding: 6px;
+    margin: 6px;
+    font-family: 'Jost', sans-serif;
+    border-radius: 5px;
+}
+
+#successful-action {
+    border: 2px solid #74ff5a;
+    display: flex;
+    font-size: small;
+    justify-content: center;
+    padding: 6px;
+    margin: 6px;
+    font-family: 'Jost', sans-serif;
+    border-radius: 5px;
+}
+
+#user-panel {
+    font-family: 'Jost', sans-serif;
+    color: cadetblue;
+    margin: 15px;
+}
